@@ -1,0 +1,50 @@
+# compiled output
+/dist
+/node_modules
+/apps/beckend
+# ignore for github
+#/docker
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+node_modules
+
+
+# package-lock.json
+# ENV
+*.env
+
+# ssh
+!/apps/api_backend/src/config/ssh/jwtRS256.key
+!/apps/api_backend/src/config/ssh/jwtRS256.key.pub
+!/apps/api_websocket/src/config/ssh/jwtRS256.key.pub
+!/docker/certbot/
+!/docker/pgdata/
+
