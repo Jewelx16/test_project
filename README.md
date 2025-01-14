@@ -1,2 +1,3 @@
-1) npx tsc
-2) node dist/index.js\
+1) Set authorization data in src/config/config.ts
+2) npx tsc
+3) node dist/index.js\
